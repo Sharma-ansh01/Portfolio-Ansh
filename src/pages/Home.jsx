@@ -127,7 +127,7 @@ const Home = () => {
                     ease: "easeInOut"
                   }}
                 />
-                <div className="relative h-90 w-90 md:h-96 md:w-96 overflow-hidden rounded-full border-4 border-white dark:border-gray-800 shadow-xl">
+                <div className="relative h-90 w-90 md:h-96 md:w-96 overflow-hidden rounded border-4 border-white dark:border-gray-800 shadow-xl">
                   <img 
                     src="https://media-hosting.imagekit.io/dfb1d866388f40e9/my%20pic.jpg?Expires=1840575664&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=xkowZG8v-8jW0sSDx7MsVM-8TFa18WarsdPKut6MF0dCZzV0hYAmhGh0meajd-6w5d6p-onKM2wEBETd-OpKB0Q6DxrizEJxsn9yFVap4Vg8FYUpNns4aPcIGzNMvnhthLe~iuYfRw~tkU0-DjkgOQFP-LY70PC4acFfRc~~bP39RsTbnCofVz4J01gHaAUF4Jp-5gViOEDyUqP01m2cELbK4qG1wTlp2GQDbVaDIUdZJzbR-kcrQfJFEz7CGzsPxypoJdyuR613OSx8yFn-hiztjZtpQiUmodEMKGh82HELYd7Jmkhd288ek7phYHHi6q5DBRUjNuLXRUpuuFrv3A__" 
                     alt="Ansh Sharma" 
