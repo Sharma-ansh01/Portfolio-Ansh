@@ -66,7 +66,7 @@ const Home = () => {
                   variant="outline"
                   size="lg"
                   icon={<Download size={18} />}
-                  onClick={() => window.open('/resume.pdf', '_blank')}
+                  onClick={() => window.open('https://drive.google.com/file/d/1jyNUuUgx0Q7ouAPOqVqUyBzvGfu1G3jg/view?usp=sharing', '_blank')}
                 >
                   Download CV
                 </Button>
