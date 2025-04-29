@@ -129,7 +129,7 @@ const Home = () => {
                 />
                 <div className="relative h-72 w-72 md:h-96 md:w-96 overflow-hidden rounded-full border-4 border-white dark:border-gray-800 shadow-xl">
                   <img 
-                    src="https://media-hosting.imagekit.io/1b821721c3e44f45/my%20pic.jpg?Expires=1840575462&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EHnsHeFAWR0vNbEBBhaOoPdenYfGYSQPnt1xSxN90lrPVXtupIpgVhmCoLYubclyfZd7etaYliiJolng~JxH6iyWgl8aB9Z10v55DgI2gQNiSXE3n6-JUdnfNcso3Z8tKx4JcnMEKfVfDf0D6HIg60WhtDSmCouAZl5meiMjH3GU9L-LlsqQmWIfoJKRdmxaNMhyAMrV6IWQJkQ6DRSyNxFJ8MVBHoMGHeypzcPofE3YolQzfnHCBKdxkiWg5CIr81oO9sS7On~94GjbgqOAFq8APRWpPlTggQOk~pUmimn2Sw1Z7tda3us5LgU3Rgxkch5kJWWq5anI3pvTva7AIA__" 
+                    src="https://media-hosting.imagekit.io/dfb1d866388f40e9/my%20pic.jpg?Expires=1840575664&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=xkowZG8v-8jW0sSDx7MsVM-8TFa18WarsdPKut6MF0dCZzV0hYAmhGh0meajd-6w5d6p-onKM2wEBETd-OpKB0Q6DxrizEJxsn9yFVap4Vg8FYUpNns4aPcIGzNMvnhthLe~iuYfRw~tkU0-DjkgOQFP-LY70PC4acFfRc~~bP39RsTbnCofVz4J01gHaAUF4Jp-5gViOEDyUqP01m2cELbK4qG1wTlp2GQDbVaDIUdZJzbR-kcrQfJFEz7CGzsPxypoJdyuR613OSx8yFn-hiztjZtpQiUmodEMKGh82HELYd7Jmkhd288ek7phYHHi6q5DBRUjNuLXRUpuuFrv3A__" 
                     alt="Ansh Sharma" 
                     className="w-full h-full object-cover"
                   />
