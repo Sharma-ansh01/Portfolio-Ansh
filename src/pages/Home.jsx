@@ -79,7 +79,7 @@ const Home = () => {
                 transition={{ delay: 0.6, duration: 0.5 }}
               >
                 <a 
-                  href="https://github.com/yourusername" 
+                  href="https://github.com/Sharma-ansh01" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   aria-label="GitHub"
@@ -88,7 +88,7 @@ const Home = () => {
                   <Github size={24} />
                 </a>
                 <a 
-                  href="https://linkedin.com/in/yourusername" 
+                  href="https://www.linkedin.com/in/ansh-sharma-a21915257/" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   aria-label="LinkedIn"
@@ -97,7 +97,7 @@ const Home = () => {
                   <Linkedin size={24} />
                 </a>
                 <a 
-                  href="https://instagram.com/yourusername" 
+                  href="https://www.instagram.com/humpy_07?igsh=MWhvcThjbzh6enlhaw==" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   aria-label="Instagram"
@@ -129,8 +129,8 @@ const Home = () => {
                 />
                 <div className="relative h-72 w-72 md:h-96 md:w-96 overflow-hidden rounded-full border-4 border-white dark:border-gray-800 shadow-xl">
                   <img 
-                    src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" 
-                    alt="Your Name" 
+                    src="https://drive.google.com/file/d/1ZUYyY4hgnhAi9afrkP9OXuRhCJa_Mt0f/view?usp=sharing" 
+                    alt="Ansh Sharma" 
                     className="w-full h-full object-cover"
                   />
                 </div>
