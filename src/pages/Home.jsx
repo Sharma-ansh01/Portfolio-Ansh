@@ -129,7 +129,7 @@ const Home = () => {
                 />
                 <div className="relative h-72 w-72 md:h-96 md:w-96 overflow-hidden rounded-full border-4 border-white dark:border-gray-800 shadow-xl">
                   <img 
-                    src="https://drive.google.com/file/d/1ZUYyY4hgnhAi9afrkP9OXuRhCJa_Mt0f/view?usp=sharing" 
+                    src="D:\Portfolio\my pic.jpg" 
                     alt="Ansh Sharma" 
                     className="w-full h-full object-cover"
                   />
