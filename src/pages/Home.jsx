@@ -129,7 +129,7 @@ const Home = () => {
                 />
                 <div className="relative h-72 w-72 md:h-96 md:w-96 overflow-hidden rounded-full border-4 border-white dark:border-gray-800 shadow-xl">
                   <img 
-                    src="D:\Portfolio\my pic.jpg" 
+                    src="https://media-hosting.imagekit.io/1b821721c3e44f45/my%20pic.jpg?Expires=1840575462&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EHnsHeFAWR0vNbEBBhaOoPdenYfGYSQPnt1xSxN90lrPVXtupIpgVhmCoLYubclyfZd7etaYliiJolng~JxH6iyWgl8aB9Z10v55DgI2gQNiSXE3n6-JUdnfNcso3Z8tKx4JcnMEKfVfDf0D6HIg60WhtDSmCouAZl5meiMjH3GU9L-LlsqQmWIfoJKRdmxaNMhyAMrV6IWQJkQ6DRSyNxFJ8MVBHoMGHeypzcPofE3YolQzfnHCBKdxkiWg5CIr81oO9sS7On~94GjbgqOAFq8APRWpPlTggQOk~pUmimn2Sw1Z7tda3us5LgU3Rgxkch5kJWWq5anI3pvTva7AIA__" 
                     alt="Ansh Sharma" 
                     className="w-full h-full object-cover"
                   />
