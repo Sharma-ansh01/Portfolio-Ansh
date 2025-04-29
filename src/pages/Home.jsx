@@ -34,7 +34,7 @@ const Home = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.3, duration: 0.5 }}
               >
-                Hi! I'm <span className="text-purple-600 dark:text-purple-400">Your Name</span>
+                Hi! I'm <span className="text-purple-600 dark:text-purple-400">Ansh Sharma</span>
                 <div>Software Developer</div>
               </motion.h1>
               
