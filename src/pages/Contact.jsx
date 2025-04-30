@@ -72,10 +72,10 @@ const Contact = () => {
     try {
       // Replace with your EmailJS service ID, template ID, and Public Key
       await emailjs.sendForm(
-        'YOUR_SERVICE_ID', 
-        'YOUR_TEMPLATE_ID', 
+        'service_1r2a9yq', 
+        'template_sx795yk', 
         formRef.current, 
-        'YOUR_PUBLIC_KEY'
+        'tpZxFaK1AOi1PMkTX'
       );
       
       setSubmitStatus({
@@ -140,7 +140,7 @@ const Contact = () => {
                     <div className="ml-4">
                       <h4 className="text-lg font-medium text-gray-900 dark:text-white">Email</h4>
                       <a href="mailto:your.email@example.com" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
-                        your.email@example.com
+                        anshhumpy1234@gmail.com
                       </a>
                     </div>
                   </div>
@@ -152,7 +152,7 @@ const Contact = () => {
                     <div className="ml-4">
                       <h4 className="text-lg font-medium text-gray-900 dark:text-white">Phone</h4>
                       <a href="tel:+1234567890" className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
-                        +1 (234) 567-890
+                        +91 9410405540
                       </a>
                     </div>
                   </div>
@@ -164,7 +164,7 @@ const Contact = () => {
                     <div className="ml-4">
                       <h4 className="text-lg font-medium text-gray-900 dark:text-white">Location</h4>
                       <p className="text-gray-600 dark:text-gray-300">
-                        San Francisco, CA, USA
+                        Bareilly, Uttar Pradesh
                       </p>
                     </div>
                   </div>
@@ -176,7 +176,7 @@ const Contact = () => {
                   </h4>
                   <div className="flex space-x-4">
                     <a 
-                      href="https://github.com/yourusername" 
+                      href="https://github.com/Sharma-ansh01" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="GitHub"
@@ -187,7 +187,7 @@ const Contact = () => {
                       </svg>
                     </a>
                     <a 
-                      href="https://linkedin.com/in/yourusername" 
+                      href="https://www.linkedin.com/in/ansh-sharma-a21915257/" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="LinkedIn"
@@ -198,7 +198,7 @@ const Contact = () => {
                       </svg>
                     </a>
                     <a 
-                      href="https://instagram.com/yourusername" 
+                      href="https://www.instagram.com/humpy_07?igsh=MWhvcThjbzh6enlhaw==" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       aria-label="Instagram"
@@ -251,7 +251,7 @@ const Contact = () => {
                             ? 'border-red-500 focus:ring-red-500 dark:border-red-500' 
                             : 'border-gray-300 focus:ring-purple-500 dark:focus:ring-purple-500'
                         }`}
-                        placeholder="John Doe"
+                        placeholder="Enter Full Name"
                       />
                       {errors.name && (
                         <p className="mt-1 text-sm text-red-500 dark:text-red-400">{errors.name}</p>
@@ -272,7 +272,7 @@ const Contact = () => {
                             ? 'border-red-500 focus:ring-red-500 dark:border-red-500' 
                             : 'border-gray-300 focus:ring-purple-500 dark:focus:ring-purple-500'
                         }`}
-                        placeholder="john@example.com"
+                        placeholder="Enter Your Email"
                       />
                       {errors.email && (
                         <p className="mt-1 text-sm text-red-500 dark:text-red-400">{errors.email}</p>
