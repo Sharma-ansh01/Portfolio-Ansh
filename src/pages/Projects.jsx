@@ -122,24 +122,7 @@ const projects = [
     demoLink: "https://restaurant-reservation-system-alpha.vercel.app/",
     codeLink: "https://github.com/Sharma-ansh01/Restaurant-Reservation-System"
   },
-  {
-    title: "Weather App",
-    description: "A mobile app that provides real-time weather forecasts based on location.",
-    image: "https://images.pexels.com/photos/2448749/pexels-photo-2448749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "mobile",
-    technologies: ["React Native", "Weather API", "Geolocation"],
-    demoLink: "https://example.com",
-    codeLink: "https://github.com/yourusername/weatherapp"
-  },
-  {
-    title: "Portfolio Website",
-    description: "A personal portfolio website to showcase my projects and skills.",
-    image: "https://images.pexels.com/photos/196646/pexels-photo-196646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "design",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    demoLink: "https://example.com",
-    codeLink: "https://github.com/yourusername/portfolio"
-  }
+  
 ];
 
 export default Projects;
