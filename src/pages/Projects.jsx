@@ -79,30 +79,30 @@ const Projects = () => {
 // Project categories
 const categories = [
   { label: 'All Projects', value: 'all' },
-  { label: 'Web Apps', value: 'web' },
+  { label: 'Crop Yield Prediction', value: 'model' },
   { label: 'Mobile Apps', value: 'mobile' },
-  { label: 'UX/UI Design', value: 'design' }
+  { label: 'PowerBi', value: 'design' }
 ];
 
 // Project data
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with shopping cart and payment integration.",
-    image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "web",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    demoLink: "https://example.com",
-    codeLink: "https://github.com/yourusername/ecommerce"
+    title: "Crop Yield Prediction",
+    description: "Developed a Machine Learning-based Crop Yield Prediction System using Random Forest and XGBoost (95.51% accuracy), with a Streamlit interface enabling farmers to get instant, data-driven yield predictions.",
+    image: "https://media-hosting.imagekit.io/de03c16656694ff8/Screenshot%202025-04-28%20032504.png?Expires=1840610500&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=wkALgTfyhG4luEzRRNI0bThaQNTay9xFCcya73BPTPdXJ1PLe0mfPw8xu3Srf1IpSFdOexDMUPnXpd2bKSVLy2QjrTutexla8fz~FPqh58CNjmeqHzJxs45m0lv7CeXZJf2PX22CxeFEGsUMU9lsb1h3hApECPdVuBc4gsYPOm70HT3PLsZYC0HEpWma86JQApyns6coSDzeJp8XIju7fXQ~bLmhf-n4pxvbRdCCpUM~ck7R4CTFc92JJwkIBm86gKQ8uzgZmHmDkHMo4lC~AZgCNbXk~cWR4ZLpAuKtet58j9byGRDNreP649YWp~CCtjKhF2kRoH965nI37Fnk9Q__",
+    category: "model",
+    technologies: ["Python", "XGBoost", "Random Forest", "Streamlit"],
+    demoLink: "https://crop-yield-prediction-system-27hmwwjt6srgd4i5j6knng.streamlit.app/",
+    codeLink: "https://github.com/Sharma-ansh01/Crop-Yield-Prediction-System"
   },
   {
-    title: "Task Management App",
+    title: "Placement Analysis Dashboard",
     description: "A productivity tool to help teams organize and prioritize their projects.",
-    image: "https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "web",
-    technologies: ["React", "Firebase", "Tailwind CSS"],
-    demoLink: "https://example.com",
-    codeLink: "https://github.com/yourusername/taskmanager"
+    image: "https://media-hosting.imagekit.io/e7099a9934524a69/Screenshot%202025-04-30%20141606.png?Expires=1840611242&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=T2OySyrz-cNqMm1zCRrfdktIxDHi-8LF8euUsHt9Ogs4a8czCDyEoICNBb0wCBtyHPPiIc2RsMatPtZwgy~iYpGxxoELJqOMuKaGwkdzu8Xs34ebosm9wR4PZnz7LKsCcCvLa3Dd7kJqczgCJqpta7UT4V5cn5Pa0VEl9KLDwZn694cai5AdPBTyxfXghpJTmPP9hwIE2G0ZD5whJ7TJnd0bzY3ndJq9ARvXHJlRp4QWvM7-8uMrNi-kXzqCHAFP4nrrgpx-gKPSO7H-cWlgeyaVWnHQow~moMpiTAdyhClgL9VRte6xW3MGj7SsKCJF1PL4dqPzs6yRA3FWHMPzjA__",
+    category: "design",
+    technologies: ["PowerBi", "Excel"],
+    demoLink: "https://1drv.ms/u/c/5e05efeb77650ec0/Efvvaj4iyaFPstyALAJT8YMB-4mVbjQqX7hFlDuHA77FBA?e=bDKhZ0",
+    codeLink: "https://github.com/Sharma-ansh01/Placement-Analysis-Dashboard"
   },
   {
     title: "Fitness Tracker",
