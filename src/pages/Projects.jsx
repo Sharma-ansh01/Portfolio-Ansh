@@ -114,13 +114,13 @@ const projects = [
     codeLink: "https://github.com/Sharma-ansh01/Pha5e-Replica-assessment"
   },
   {
-    title: "Social Media Dashboard",
-    description: "A comprehensive dashboard for social media analytics and content management.",
-    image: "https://images.pexels.com/photos/927629/pexels-photo-927629.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    title: "Restaurant Reservation System",
+    description: "Developed a full-stack Restaurant Reservation System using React, Express, MongoDB, and JavaScript, featuring a user-friendly interface for booking tables, managing reservations, and streamlining restaurant operations.",
+    image: "https://media-hosting.imagekit.io/d5b0b0eaeb3d4e12/Screenshot%202025-04-30%20155842.png?Expires=1840617563&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Vqi24dFG5wB~5btkgcPiIKxEPX71HcODO~Fq2gLFrUd1NSw7lMMyvRUVc7xD2Bo5NoAIvEdQkl002Oym19MwzQsF8rrUzmUoFKo9~bKx8JlgqzbL0eCQOA3UKPOSnElLGDCfd4YrYdYHbURHoMv9pYduK3sPrBb2OvkFZi9U4TZaOugEtcdWRMRT1km1OpSv03WAqNPoXrlqbZzLfd98GI9D9JrcUb~le4cYHTAAo0ztkVNJMZgkA2sSvcNRYzbJKkty~J52e7IMXKFo3ns9gD~eokhcGadiyismTduU~o~e9Y8qfgl3kNJQTr49sRCuvHCBRpbZxMrt2A73WFHAHA__",
     category: "web",
-    technologies: ["React", "Redux", "Express", "PostgreSQL"],
-    demoLink: "https://example.com",
-    codeLink: "https://github.com/yourusername/socialdashboard"
+    technologies: ["React", "MongoDB", "Express", "JavaScript", "HTML", "CSS"],
+    demoLink: "https://restaurant-reservation-system-alpha.vercel.app/",
+    codeLink: "https://github.com/Sharma-ansh01/Restaurant-Reservation-System"
   },
   {
     title: "Weather App",
