@@ -80,7 +80,7 @@ const Projects = () => {
 const categories = [
   { label: 'All Projects', value: 'all' },
   { label: 'Crop Yield Prediction', value: 'model' },
-  { label: 'Mobile Apps', value: 'mobile' },
+  { label: 'Web Apps', value: 'web' },
   { label: 'PowerBi', value: 'design' }
 ];
 
@@ -105,13 +105,13 @@ const projects = [
     codeLink: "https://github.com/Sharma-ansh01/Placement-Analysis-Dashboard"
   },
   {
-    title: "Fitness Tracker",
-    description: "An application to track workout routines and monitor fitness progress.",
-    image: "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "mobile",
-    technologies: ["React Native", "Firebase", "Chart.js"],
-    demoLink: "https://example.com",
-    codeLink: "https://github.com/yourusername/fitnesstracker"
+    title: "Pha5e Replica",
+    description: "Recreated the Hero section of the PHA5E website using HTML, Tailwind CSS, and GSAP, featuring responsive design, interactive hover effects, and smooth UI animations.",
+    image: "https://media-hosting.imagekit.io/0db91a26ccb64c8c/Screenshot%202025-04-30%20151706.png?Expires=1840614441&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ED5n6nhiYCLIRtC69FYhkZcAvcSXzd5y3znIEFqt-QFuizYV~0mNr19BjQUbw3XBxAbbe0q1lnJvULyIGdHusSrs4FxEX3sKZhbhdNj5F6ic5qFFG2ZaXxgDH0vN-1xyp-jnVuJnbripZ-~OwgoyIiuyelT-4z13NLZFvmoWtmDFKPiAQF3chYcUVf3kSl-7hZ4EM4ktP1ZAtgiSO9QZlzFDqlR621ZYsofIb0aarQw8U-wY0Ywkp9GtR3TVZh90EYyxrth2zw0XWrRMsMDz2J9jGtGYyg15JMFWQhi5JwMxqxmqqbm~XBRoslnZ6xxlkUCtsz7pqawZR-vMZ1UYRA__",
+    category: "web",
+    technologies: ["HTML", "Tailwind CSS", "GSAP"],
+    demoLink: "https://pha5e-replica-assessment-codb.vercel.app/",
+    codeLink: "https://github.com/Sharma-ansh01/Pha5e-Replica-assessment"
   },
   {
     title: "Social Media Dashboard",
