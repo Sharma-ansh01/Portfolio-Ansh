@@ -36,10 +36,10 @@ const About = () => {
               </h3>
               <div className="prose prose-lg dark:prose-invert">
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  I'm a passionate software developer with a strong foundation in web and mobile application development. With over 5 years of experience in the tech industry, I've had the opportunity to work on a diverse range of projects that have sharpened my skills and broadened my perspective.
+                I am a passionate and dedicated student currently pursuing my B.E. in Information Technology at Panjab University. With a strong interest in both front-end and back-end development, I enjoy building responsive web applications that are both user-friendly and performance-driven. My technical journey has led me to explore modern frameworks, no-code tools, and automation platforms, which I leverage to design efficient, scalable solutions. I also have hands-on experience in data analysis and visualization, allowing me to interpret complex datasets and extract meaningful insights.
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  My journey in software development began during my undergraduate studies in Computer Science at [Your University], where I discovered my love for creating elegant, user-friendly applications. Since then, I've worked with startups and established companies alike, always focusing on delivering high-quality, scalable solutions.
+                Beyond technical skills, I value continuous learning and creative problem-solving. I thrive in collaborative environments where innovation and attention to detail are prioritized. Whether it's crafting a clean user interface, streamlining workflows with automation, or developing robust APIs, I take pride in delivering high-quality work. My goal is to contribute to impactful projects that blend technology with real-world solutions while continually evolving as a developer and technologist.
                 </p>
                 <p className="text-gray-700 dark:text-gray-300">
                   When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities like hiking and photography.
@@ -51,7 +51,7 @@ const About = () => {
                   variant="primary" 
                   size="lg"
                   icon={<Download size={18} />}
-                  onClick={() => window.open('/resume.pdf', '_blank')}
+                  onClick={() => window.open('https://drive.google.com/file/d/1jyNUuUgx0Q7ouAPOqVqUyBzvGfu1G3jg/view?usp=sharing', '_blank')}
                 >
                   Download CV
                 </Button>
@@ -79,8 +79,8 @@ const About = () => {
                 />
                 <div className="relative h-full rounded-2xl overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
                   <img 
-                    src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" 
-                    alt="Your Name" 
+                    src="https://media-hosting.imagekit.io/dfb1d866388f40e9/my%20pic.jpg?Expires=1840575664&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=xkowZG8v-8jW0sSDx7MsVM-8TFa18WarsdPKut6MF0dCZzV0hYAmhGh0meajd-6w5d6p-onKM2wEBETd-OpKB0Q6DxrizEJxsn9yFVap4Vg8FYUpNns4aPcIGzNMvnhthLe~iuYfRw~tkU0-DjkgOQFP-LY70PC4acFfRc~~bP39RsTbnCofVz4J01gHaAUF4Jp-5gViOEDyUqP01m2cELbK4qG1wTlp2GQDbVaDIUdZJzbR-kcrQfJFEz7CGzsPxypoJdyuR613OSx8yFn-hiztjZtpQiUmodEMKGh82HELYd7Jmkhd288ek7phYHHi6q5DBRUjNuLXRUpuuFrv3A__" 
+                    alt="Ansh Sharma" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -112,8 +112,8 @@ const About = () => {
           </div>
           
           <SectionTitle 
-            title="Experience" 
-            subtitle="My professional journey" 
+            title="Academics" 
+            subtitle="My academic journey" 
             centered
           />
           
@@ -129,7 +129,7 @@ const About = () => {
                 <div className="absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-purple-600"></div>
                 <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-                    {item.position} | <span className="text-purple-600 dark:text-purple-400">{item.company}</span>
+                    {item.position} | <span className="text-purple-600 dark:text-purple-400">{item.university}</span>
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-3">{item.period}</p>
                   <p className="text-gray-700 dark:text-gray-300">{item.description}</p>
@@ -146,13 +146,13 @@ const About = () => {
 // Skills data
 const skills = [
   {
-    title: "Frontend Development",
-    description: "Building responsive and interactive user interfaces with modern frameworks and libraries.",
+    title: "Full-stack Development",
+    description: "Building responsive, interactive user interfaces with modern frameworks and libraries, and developing robust server-side applications with RESTful APIs.",
     icon: <Layout size={36} />
   },
   {
-    title: "Backend Development",
-    description: "Creating robust server-side applications and RESTful APIs.",
+    title: "Automation & Workflow Optimization",
+    description: "Developing and utilizing automated tools to enhance efficiency, reduce manual effort, and optimize repetitive tasks across workflows.",
     icon: <Server size={36} />
   },
   {
@@ -161,8 +161,8 @@ const skills = [
     icon: <Database size={36} />
   },
   {
-    title: "UI/UX Design",
-    description: "Crafting intuitive and aesthetically pleasing user experiences.",
+    title: "No-Code Design",
+    description: "Designing intuitive and functional digital products using no-code tools for rapid prototyping and development.",
     icon: <Layout size={36} />
   },
   {
@@ -180,22 +180,22 @@ const skills = [
 // Experience data
 const experience = [
   {
-    position: "Senior Frontend Developer",
-    company: "Tech Solutions Inc.",
-    period: "Jan 2022 - Present",
-    description: "Leading frontend development for enterprise applications, implementing modern React patterns and optimizing performance. Mentoring junior developers and contributing to architectural decisions."
+    position: "B.E. in Information Technology",
+    university: "Panjab University",
+    period: "Nov 2022 - Present",
+    description: "Pursuing a Bachelor of Engineering in Information Technology at Panjab University, with a focus on software development, data structures, algorithms, and modern technologies in computing."
   },
   {
-    position: "Frontend Developer",
-    company: "Digital Innovations",
-    period: "Mar 2019 - Dec 2021",
-    description: "Developed responsive web applications using React and modern CSS frameworks. Collaborated with designers to implement pixel-perfect interfaces and improved application performance."
+    position: "Intermidiate",
+    university: "R.R.K School",
+    period: "Mar 2020 - Feb 2021",
+    description: "Completed Intermediate education at R.R.K School with a strong foundation in Mathematics, Physics, and Chemistry, preparing for advanced studies in technology and engineering."
   },
   {
-    position: "Junior Web Developer",
-    company: "WebCraft Studio",
-    period: "Jun 2017 - Feb 2019",
-    description: "Built and maintained client websites and web applications. Gained experience with JavaScript frameworks, responsive design, and version control systems."
+    position: "High School ",
+    university: "R.R.K School",
+    period: "March 2018 - Feb 2019",
+    description: "Completed High School at R.R.K School with a focus on core subjects including Science, Mathematics, and English, laying the groundwork for future academic and technical pursuits."
   }
 ];
 
