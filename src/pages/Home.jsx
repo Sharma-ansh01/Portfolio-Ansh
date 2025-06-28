@@ -129,7 +129,7 @@ const Home = () => {
                 />
                 <div className="relative h-200 w-150 md:h-120 md:w-96 overflow-hidden rounded-full border-4 border-white dark:border-gray-800 shadow-xl">
                   <img 
-                    src="https://media-hosting.imagekit.io/dfb1d866388f40e9/my%20pic.jpg?Expires=1840575664&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=xkowZG8v-8jW0sSDx7MsVM-8TFa18WarsdPKut6MF0dCZzV0hYAmhGh0meajd-6w5d6p-onKM2wEBETd-OpKB0Q6DxrizEJxsn9yFVap4Vg8FYUpNns4aPcIGzNMvnhthLe~iuYfRw~tkU0-DjkgOQFP-LY70PC4acFfRc~~bP39RsTbnCofVz4J01gHaAUF4Jp-5gViOEDyUqP01m2cELbK4qG1wTlp2GQDbVaDIUdZJzbR-kcrQfJFEz7CGzsPxypoJdyuR613OSx8yFn-hiztjZtpQiUmodEMKGh82HELYd7Jmkhd288ek7phYHHi6q5DBRUjNuLXRUpuuFrv3A__" 
+                    src="https://i.ibb.co/JWqxSLQz/My-pic.jpg" 
                     alt="Ansh Sharma" 
                     className="w-full h-full object-cover"
                   />
@@ -219,17 +219,17 @@ const featuredProjects = [
   {
     title: "Crop Yield Prediction",
     description: "Developed a Machine Learning-based Crop Yield Prediction System using Random Forest and XGBoost (95.51% accuracy), with a Streamlit interface enabling farmers to get instant, data-driven yield predictions.",
-    image: "https://media-hosting.imagekit.io/de03c16656694ff8/Screenshot%202025-04-28%20032504.png?Expires=1840610500&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=wkALgTfyhG4luEzRRNI0bThaQNTay9xFCcya73BPTPdXJ1PLe0mfPw8xu3Srf1IpSFdOexDMUPnXpd2bKSVLy2QjrTutexla8fz~FPqh58CNjmeqHzJxs45m0lv7CeXZJf2PX22CxeFEGsUMU9lsb1h3hApECPdVuBc4gsYPOm70HT3PLsZYC0HEpWma86JQApyns6coSDzeJp8XIju7fXQ~bLmhf-n4pxvbRdCCpUM~ck7R4CTFc92JJwkIBm86gKQ8uzgZmHmDkHMo4lC~AZgCNbXk~cWR4ZLpAuKtet58j9byGRDNreP649YWp~CCtjKhF2kRoH965nI37Fnk9Q__"
+    image: "https://i.ibb.co/GQNq2FpC/Screenshot-2025-04-28-032504.png" 
   },
   {
     title: "Pha5e Replica",
     description: "Recreated the Hero section of the PHA5E website using HTML, Tailwind CSS, and GSAP, featuring responsive design, interactive hover effects, and smooth UI animations.",
-    image: "https://media-hosting.imagekit.io/0db91a26ccb64c8c/Screenshot%202025-04-30%20151706.png?Expires=1840614441&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ED5n6nhiYCLIRtC69FYhkZcAvcSXzd5y3znIEFqt-QFuizYV~0mNr19BjQUbw3XBxAbbe0q1lnJvULyIGdHusSrs4FxEX3sKZhbhdNj5F6ic5qFFG2ZaXxgDH0vN-1xyp-jnVuJnbripZ-~OwgoyIiuyelT-4z13NLZFvmoWtmDFKPiAQF3chYcUVf3kSl-7hZ4EM4ktP1ZAtgiSO9QZlzFDqlR621ZYsofIb0aarQw8U-wY0Ywkp9GtR3TVZh90EYyxrth2zw0XWrRMsMDz2J9jGtGYyg15JMFWQhi5JwMxqxmqqbm~XBRoslnZ6xxlkUCtsz7pqawZR-vMZ1UYRA__"
+    image: "https://i.ibb.co/G46YLkWY/Screenshot-2025-04-30-151706.png" 
   },
   {
     title: "Restaurant Reservation System",
     description: "Developed a full-stack Restaurant Reservation System using React, Express, MongoDB, and JavaScript, featuring a user-friendly interface for booking tables, managing reservations, and streamlining restaurant operations.",
-    image: "https://media-hosting.imagekit.io/d5b0b0eaeb3d4e12/Screenshot%202025-04-30%20155842.png?Expires=1840617563&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Vqi24dFG5wB~5btkgcPiIKxEPX71HcODO~Fq2gLFrUd1NSw7lMMyvRUVc7xD2Bo5NoAIvEdQkl002Oym19MwzQsF8rrUzmUoFKo9~bKx8JlgqzbL0eCQOA3UKPOSnElLGDCfd4YrYdYHbURHoMv9pYduK3sPrBb2OvkFZi9U4TZaOugEtcdWRMRT1km1OpSv03WAqNPoXrlqbZzLfd98GI9D9JrcUb~le4cYHTAAo0ztkVNJMZgkA2sSvcNRYzbJKkty~J52e7IMXKFo3ns9gD~eokhcGadiyismTduU~o~e9Y8qfgl3kNJQTr49sRCuvHCBRpbZxMrt2A73WFHAHA__"
+    image:"https://i.ibb.co/b5ftvSdP/Screenshot-2025-04-30-155842.png" 
   }
 ];
 
