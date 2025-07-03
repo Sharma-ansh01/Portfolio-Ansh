@@ -51,7 +51,7 @@ const About = () => {
                   variant="primary" 
                   size="lg"
                   icon={<Download size={18} />}
-                  onClick={() => window.open('https://drive.google.com/file/d/1jyNUuUgx0Q7ouAPOqVqUyBzvGfu1G3jg/view?usp=sharing', '_blank')}
+                  onClick={() => window.open('https://drive.google.com/file/d/1nwHKhQT1V5uICCw0Exzxcd2o2gfhsxNc/view?usp=sharing')}
                 >
                   Download CV
                 </Button>
